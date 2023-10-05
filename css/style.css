@@ -1,0 +1,310 @@
+* {
+   
+    box-sizing: border-box;
+    
+    /* background-color: #000;
+    color: #fff; */
+}
+
+body {
+    font-size: 20px;
+    background-color: #000;
+    scroll-behavior: smooth;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    line-height: 100%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+nav {
+    background: #24252a;
+    display: flex;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav a:link {
+    color: #fff;
+    padding: 1rem;
+    background: #24252a;
+    flex-grow: 1;
+    text-align: center;
+    transition: all 300ms;
+}
+
+nav a:visited {
+    color: #eee;
+}
+
+nav a:hover {
+    color: #000;
+    background: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../image/header.jpg);
+    /* background-color: #fff; */
+    /* color: #000; */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    min-height: 100vh;
+    /* padding: 200px; */
+}
+header h1{
+    color: #fff;
+}
+
+h1.head {
+    font-size: 36px;
+}
+
+#section1 {
+    background: #000;
+    width: auto;
+    height: auto;
+    /* z-index: 998; */
+}
+
+.adjust {
+    width: 100%;
+    margin-top: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.images1 {
+   
+    width: 100%;
+    
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.column h2 {
+    font-size: 24px;
+    color: #fff;
+}
+.column p {
+    text-align: left;
+    font-size: 40PX;
+}
+
+
+
+#section2 {
+}
+
+.about {
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.about1 {
+    font-size: 30px;
+    margin-bottom: 1rem;
+    padding: 0%;
+    color: #00FF04;
+}
+
+.l1 {
+    list-style-type:square ;
+    padding-left: 6rem;
+}
+
+.li a{
+    color: #fff;
+}
+
+p {
+    font-size: medium;
+}
+
+ul {
+    list-style-type:number;
+    color: #00FF04;
+    font-size: 20px;
+    margin-left: 1rem;
+    text-align: left;
+    padding: 1px;
+}
+
+
+li {
+    font-size: 20px;
+    color: #fff;
+}
+
+ul p {
+    color:#fff;
+    padding-left:2rem;
+    font-size: large;
+    
+}
+#section3 {
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+article {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.col2 {
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.col2 h2 {
+    text-align: left;
+    column-span: all;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.3em;
+}
+
+.sticker-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 2rem 10rem 2rem 2rem;
+    background-image: url(../image/bbback.jpg);
+}
+
+.stickme {
+    padding: 2rem;
+    position: sticky;
+    top: 0;
+    flex: 1;
+}
+
+h1.sticky {
+    font-size: 7rem;
+    text-align: right;
+    margin: 0;
+    line-height: 100%;
+}
+
+h2.sticky {
+    font-size: 2rem;
+    text-align: right;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+article.stickys {
+    font-size: 1rem;
+    flex: 1;
+    text-align: left;
+    
+}
+
+article.stickys p{
+    font-size: 20px;
+    color:#fff!important;
+    /* background-color: #000; */
+    font-weight:bolder ;
+}
+
+section.divider {
+    text-align: center;
+    margin: 2rem;
+    padding: 1rem;
+    line-height: 12;
+}
+
+section.divider h1 {
+    color: #fff;
+    font-family: sans-serif;
+    text-shadow: 4px 4px 0 #333;
+}
+
+#section4 {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+div.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    text-align: center;
+    color: white;
+}
+
+.content h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.send {
+    color: #000;
+    background: #fff;
+    font-weight: bolder;
+}
